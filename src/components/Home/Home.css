@@ -1,0 +1,43 @@
+.homeContainer{
+    background-color: black;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 3fr 1fr;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.aboutMe{
+    position: absolute;
+    color: white;
+    text-align: left;
+    vertical-align:middle;
+    width:45%;
+    height:auto;
+    padding: 30px;
+    grid-row: 1; 
+    grid-column: 1;
+}
+.imgPerfilContainer{
+    text-align: right;
+    padding: 5%;
+    filter: grayscale(100%);
+    grid-row: 1; 
+    grid-column: 2;
+}
+
+.greeting{
+    font-size: 30px;
+}
+.profession{
+    font-size: 50px;
+}
+.descriptionAboutMe{
+    font-size: 20px;
+}
+.buttonReadMore{
+    background: none;
+    border: none;
+    color: rgb(231, 143, 71);
+    cursor: pointer;
+    font-size: 27px;
+}
