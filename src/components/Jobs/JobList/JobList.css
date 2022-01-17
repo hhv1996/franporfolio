@@ -1,0 +1,22 @@
+.jobListContainer{
+    position:relative;
+    padding:30px;
+    background-color: black;
+    columns: 4 120px;
+    column-gap: 1.5em;
+}
+img{
+    max-width: 100%;
+    margin-bottom: 1.5em;
+    border-radius: 10px;
+}
+.hoverDiv{
+    max-width:30%;
+    color: whitesmoke;
+    position:absolute;
+    top:0;
+    bottom:0;
+}
+img:hover{
+    background-color: whitesmoke;
+}
